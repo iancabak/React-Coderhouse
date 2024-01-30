@@ -1,6 +1,6 @@
-import CartWidget from "./CartWidget";
-import EnlacesContainer from "./EnlacesContainer";
-import Logo from "./Logo";
+import CartWidget from "./components/CartWidget";
+import EnlacesContainer from "./components/EnlacesContainer";
+import Logo from "./components/Logo";
 
 
 

@@ -1,0 +1,35 @@
+
+[
+    {"id": 1, "title": "The Classic Guete", "category": "hamburguesas","precio": 6500, "imagen":"https://i.ibb.co/0Q6N1G5/onionguete.jpg", "descripcion": "Doble carne, cheddar, bacon, cebolla y la salsita especial de guete", "stock": 10},
+    {"id": 1, "title": "The Simple Guete", "category": "hamburguesas","precio": 6000, "imagen":"https://i.ibb.co/N7QC71L/simpleguete.jpg", "descripcion": "Una carne, cheddar, bacon, pollo y la salsita especial de guete", "stock": 10},
+    {"id": 2, "title": "Guete's Favourite Crispy", "category": "hamburguesas","precio": 8000, "imagen":"https://i.ibb.co/7XtTmcx/crispy.jpg", "descripcion": "Doble carne, cheddar, cebolla crispy, huevo y provoleta", "stock": 10},
+    {"id": 3, "title": "Guete's Onion Beast", "category": "hamburguesas","precio": 8500, "imagen":"https://i.ibb.co/4PdYbhp/onionbeast.jpg", "descripcion": "Medallón grueso de carne, cheddar, bacon, salsa OMI y aros de cebolla", "stock": 15},
+    {"id": 4, "title": "Guete's Chick Burguer", "category": "hamburguesas","precio": 6000, "imagen":"https://i.ibb.co/F5tcV0f/chicken.jpg", "descripcion": "Medallón de pollo, tomate, cheddar y lechuga", "stock": 20},
+    {"id": 5, "title": "Cheesy Guete", "category": "hamburguesas","precio": 7500, "imagen":"https://i.ibb.co/Vxv4wxW/cheesy.jpg", "descripcion": "Doble carne, bacon, pepinos y muchísimo cheddar", "stock": 10},
+    {"id": 6, "title": "Rock N Roll Guete", "category": "hamburguesas","precio": 9000, "imagen":"https://i.ibb.co/X46YTh4/rocknroll.jpg", "descripcion": "Carne, lechuga, cebolla morada y salsa ROCK N ROLL", "stock": 10},
+    {"id": 7, "title": "Guete's Chicken Wings", "category": "pollo","precio": 6500, "imagen":"https://i.ibb.co/n8Md9zc/dirty2.jpg", "descripcion": "7 patitas de pollo fritas bañadas en barbacoa", "stock": 15},
+    {"id": 8, "title": "Dirty Guete Chicken", "category": "pollo","precio": 12000, "imagen":"https://i.ibb.co/kgPt9yN/chickendirty.jpg", "descripcion": "El pollo especial enorme de Guete. Para compartir", "stock": 20},
+    {"id": 9, "title": "Guete's 'Pechuga'", "category": "pollo","precio": 7000, "imagen":"https://i.ibb.co/1XsFG0n/pechuga.jpg", "descripcion": "Dos pechugas de Guete grilladas.", "stock": 15},
+    {"id": 10, "title": "Guete's Big Chicken Bucket", "category": "pollo","precio": 10000, "imagen":"https://i.ibb.co/xh16Qz1/bucketfinal.jpg", "descripcion": "10 Piezas. Para compartir", "stock": 20},
+    {"id": 11, "title": "Guete's Small Chicken Bucket", "category": "pollo","precio": 5000, "imagen":"https://i.ibb.co/xh16Qz1/bucketfinal.jpg", "descripcion": "5 piezas", "stock": 15},
+    {"id": 12, "title": "Guete's Spicy Sirloin", "category": "carne","precio": 16500, "imagen":"https://i.ibb.co/tpDznWZ/sirloin.jpg", "descripcion": "El sirloin de Guete a punto. Disfrutalo", "stock": 15},
+    {"id": 13, "title": "Guete's Fat Roast Beef", "category": "carne","precio": 18500, "imagen":"https://i.ibb.co/y0CHZK7/roastbeef.jpg", "descripcion": "Un pedazo de Roast Beef dividido en 6. Locura", "stock": 15},
+    {"id": 14, "title": "The Guete Steak", "category": "carne","precio": 17500, "imagen":"https://i.ibb.co/P1m8KhC/guetesteak.jpg", "descripcion": "El Lomo clásico de Guete. A punto es una locura", "stock": 15},
+    {"id": 15, "title": "The T-Guete", "category": "carne","precio": 15500, "imagen":"https://i.ibb.co/ftJ6Pvm/tbone.jpg", "descripcion": "El T-Bone de Guete. El mejor de la zona.", "stock": 15},
+    {"id": 16, "title": "Guete's Ribby Flavour", "category": "carne","precio": 16000, "imagen":"https://i.ibb.co/dJdgqTs/ribeyeguete.jpg", "descripcion": "El ribeye de Guete tiene un sabor único. Probalo.", "stock": 15},
+    {"id": 17, "title": "The Special Guete Chips", "category": "guarniciones","precio": 3000, "imagen":"https://i.ibb.co/W69tSXP/papas.jpg", "descripcion": "Las papas fritas de Guete", "stock": 95},
+    {"id": 18, "title": "Guete Salad", "category": "guarniciones","precio": 2500, "imagen":"https://i.ibb.co/rH30C8N/ensaladita.jpg", "descripcion": "La ensalada especial de Guete, para los saludables.", "stock": 35},
+    {"id": 19, "title": "Guete's Nice Mashed Potato", "category": "guarniciones","precio": 3000, "imagen":"https://i.ibb.co/J3RYRqM/pure.jpg", "descripcion": "Puré de papas bien cremoso.", "stock": 20},
+    {"id": 20, "title": "Be Healthy Like Guete", "category": "bebidas","precio": 1500, "imagen":"https://i.ibb.co/GV8H7Mw/agua.jpg", "descripcion": "Agua. Pagas una y pedis cuantas quieras", "stock": 55},
+    {"id": 21, "title": "Drunky Guete", "category": "bebidas","precio": 3000, "imagen":"https://i.ibb.co/yncJQ4D/birrita.jpg", "descripcion": "La cervecita de Guete", "stock": 35},
+    {"id": 22, "title": "Coca Cola", "category": "bebidas","precio": 1800, "imagen":"https://i.ibb.co/GvcBgD0/rica-cocucha.jpg", "descripcion": "Común o Zero", "stock": 95},
+    {"id": 23, "title": "Sprite", "category": "bebidas","precio": 1600, "imagen":"https://i.ibb.co/b3wwzBf/sprite.jpg", "descripcion": "Lata de Sprite", "stock": 15},
+    {"id": 24, "title": "Helado de Oreo", "category": "postres","precio": 1600, "imagen":"https://i.ibb.co/PjhchSR/oreo.jpg", "descripcion": "Heladito de Oreo", "stock": 15},
+    {"id": 25, "title": "Flan", "category": "postres","precio": 1600, "imagen":"https://i.ibb.co/ssGd22r/flan.jpg", "descripcion": "Flansito especial de Guete", "stock": 15},
+    {"id": 26, "title": "Cheesecake", "category": "postres","precio": 1600, "imagen":"https://i.ibb.co/rvfpsHC/cheesecake.jpg", "descripcion": "El cheesecake de la casa", "stock": 15},
+    {"id": 23, "title": "Chocotorta", "category": "postres","precio": 1600, "imagen":"https://i.ibb.co/d6D2RMM/choco.jpg", "descripcion": "Chocotorta rica", "stock": 15}
+
+
+]
+
+

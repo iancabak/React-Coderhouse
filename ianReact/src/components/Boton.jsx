@@ -5,7 +5,7 @@ const Boton = () => {
 
     return (
         <div>
-            <button onClick={() => setButtonText('Gracias por hacer click')}>{buttonText}</button>
+            <button className="btn btn-light" onClick={() => setButtonText('Gracias por hacer click')}>{buttonText}</button>
         </div>
     )
 }
