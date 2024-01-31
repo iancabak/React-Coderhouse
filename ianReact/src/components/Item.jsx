@@ -15,7 +15,7 @@ const Item = ({item}) => {
                     </div>
                 </Link>
                 <Link to={"/item/6"}>
-                    <button className="btn btn-warning fixed-bottom">Compra la nueva 'Rock N Roll Guete'</button>
+                    <button className="btn btn-warning fixed-bottom p-2"><b>Probá la nueva 'Rock N Roll Guete'!</b></button>
                 </Link>
             </div> 
         </div>

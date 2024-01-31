@@ -1,8 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import ItemListContainer from './components/ItemListContainer'
 import NavBar from './NavBar'
-
-
 import ItemDetailContainer from "./components/ItemDetailContainer"
 import Error404 from "./components/Error404"
 import Footer from "./components/Footer"
