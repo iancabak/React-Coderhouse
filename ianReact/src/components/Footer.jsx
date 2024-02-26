@@ -1,14 +1,20 @@
+
 import { Link } from "react-router-dom";
 
 
 
 const Footer = () => {
+
+
+
+
+
     return (
         <div className="container-fluid bg-light mt-4 mb-4">
             <footer className="">
                 <div className="row pt-5 pl-5 pr-5 pb-0">
                     <div className="col md-6 pl-5">
-                        <h5>Gracias por ser parte de la Experiencia Guete!</h5>
+                        <h5 className="mb-4">Gracias por ser parte de la Experiencia Guete!</h5>
                         <ul>
                             <li>
                                 <Link to={"/"}>
@@ -16,13 +22,15 @@ const Footer = () => {
                                 </Link>
                             </li>
                             <li>
-                                <p>Quienes Somos?</p>
+                                <a className="text-dark" href="#quienessomos"><p>Quienes Somos?</p></a>
                             </li>
                             <li>
-                                <p>Sucursales</p>
+                                <Link to={"/sucursales"}>
+                                    <p className="text-dark">Sucursales</p>
+                                </Link>
                             </li>
                             <li>
-                                <p>Familia Guete</p>
+                                <a className="text-dark" href=""><p>Familia Guete</p></a>
                             </li>
                         </ul>
                     </div>
@@ -32,8 +40,8 @@ const Footer = () => {
                         <p>Para recibir novedades todos los meses.</p>
                         <div className="d-flex flex-column flex-sm-row w-100 gap-2">
                             <label for="newsletter1" className="visually-hidden"></label>
-                            <input id="newsletter1" type="text" className="form-control" placeholder="Email address" />
-                            <button className="btn btn-warning" type="button">Subscribite</button>
+                            <input id="newsletter1" type="email" className="form-control" placeholder="Email address" />
+                            <button type="button" className="btn btn-warning">Suscribirse</button>
                         </div>
                         </form>
                     </div>

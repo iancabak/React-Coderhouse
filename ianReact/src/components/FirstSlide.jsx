@@ -15,7 +15,7 @@ const FirstSlide = () => {
                     <Card titulo={<h4>Simple Guete</h4>} imagen={Simple} parrafo={'La "Simple Guete" es la opcion ideal para los amantes de los clasicos. 1 medallon de carne y cheddar'} />
                 </div>
                 <div className='col-sm'>
-                    <Card titulo={<h4>Guete's Cheesy Fat Bitch</h4>} imagen={Cheesy} parrafo={'La "Cheesy Fat Bitch" de Guete es una bomba de sabor hecha para los mas glotones y obesos. '}/>
+                    <Card titulo={<h4>Guete's Cheesy Fat</h4>} imagen={Cheesy} parrafo={'La "Cheesy Fat Bitch" de Guete es una bomba de sabor hecha para los mas glotones y obesos. '}/>
                 </div>
             </div>
     </div>

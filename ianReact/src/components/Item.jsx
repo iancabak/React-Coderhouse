@@ -14,9 +14,10 @@ const Item = ({item}) => {
                         </div>
                     </div>
                 </Link>
-                <Link to={"/item/6"}>
+                <Link to={"/item/Ovyp4uh32I8p1rZSzIMI"}>
                     <button className="btn btn-warning fixed-bottom p-2"><b>Probá la nueva 'Rock N Roll Guete'!</b></button>
                 </Link>
+                
             </div> 
         </div>
 

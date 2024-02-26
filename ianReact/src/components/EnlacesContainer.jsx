@@ -5,14 +5,14 @@ const EnlacesContainer = () => {
     return (
         <ul className="container-fluid row justify-content-center list-unstyled list-inline mb-0">
             
-            <li className="list-inline-item ">
-                <NavLink className="text-light" to="/">Productos</NavLink>
-            </li>
             <li className="list-inline-item">
                 <NavLink className="text-light" to="/category/hamburguesas">Hamburguesas</NavLink>
             </li>
             <li className="list-inline-item">
                 <NavLink className="text-light" to="/category/pollo">Pollo</NavLink>
+            </li>
+            <li className="list-inline-item">
+                <NavLink className="text-light" to="/category/carne">Carne</NavLink>
             </li>
             <li className="list-inline-item">
                 <NavLink className="text-light" to="/category/bebidas">Bebidas</NavLink>

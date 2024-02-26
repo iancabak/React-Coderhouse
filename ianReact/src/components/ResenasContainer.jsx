@@ -1,73 +1,41 @@
 const ResenasContainer = () => {
     return (
-        <section className="container-fluid bg-light pt-3 pb-3">
-                <div className="row text-center">
-                    <div className="col-md-12">
-                    
-                    <div id="carouselBasicExample" className="carousel slide carousel-dark" data-mdb-ride="carousel">
-                        
-                        <div className="carousel-inner">
-                        
-                        <div className="carousel-item active">
-                            <p className=" mx-4 mx-md-5">
-                            "Me encantan las hamburguesas de Guete."
-                            </p>
-                            <div className="mt-3 mb-3">
-                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
-                                className="rounded-circle img-fluid shadow-1-strong" alt="smaple image" width="100"
-                                height="100" />
-                            </div>
-                            <p className="text-muted mb-0">- Anna Morian</p>
-                        </div>
-
-                        
-                        <div className="carousel-item">
-                            <p className="lead font-italic mx-4 mx-md-5">
-                            "Neque cupiditate assumenda in maiores repudiandae mollitia adipisci maiores
-                            repudiandae mollitia consectetur adipisicing architecto elit sed adipiscing
-                            elit."
-                            </p>
-                            <div className="mt-5 mb-4">
-                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(31).webp"
-                                className="rounded-circle img-fluid shadow-1-strong" alt="smaple image" width="100"
-                                height="100" />
-                            </div>
-                            <p className="text-muted mb-0">- Teresa May</p>
-                        </div>
-
-                        
-                        <div className="carousel-item">
-                            <p className="lead font-italic mx-4 mx-md-5">
-                            "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                            dolore eu fugiat nulla pariatur est laborum neque cupiditate assumenda in
-                            maiores."
-                            </p>
-                            <div className="mt-5 mb-4">
-                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
-                                className="rounded-circle img-fluid shadow-1-strong" alt="smaple image" width="100"
-                                height="100" />
-                            </div>
-                            <p className="text-muted mb-0">- Kate Allise</p>
-                        </div>
-                        </div>
-                        
-
-                    
-                        <button className="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample"
-                        data-mdb-slide="prev">
-                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span className="visually-hidden">Previous</span>
-                        </button>
-                        <button className="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample"
-                        data-mdb-slide="next">
-                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span className="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                    
+        <section className="container-fluid bg-warning">
+            <div className="container bg-light p-4">
+                <div className="row d-flex justify-content-center">
+                    <div className="col-md-10 col-xl-8 text-center">
+                    <h3 className="mb-4 mt-4">Experiencias</h3>
+                    <p className="mb-4 pb-2 mb-md-5 pb-md-0">
+                        En The Guete Experience nos encargamos de que cada visita sea una experiencia única. Por eso nos interesa que nos dejes tu review para ver en que podemos mejorar.
+                    </p>
                     </div>
                 </div>
+
+                <div className="row text-center">
+                    <div className="col-md-6 mb-4 mb-md-0">
+                        <div className="d-flex justify-content-center mb-4">
+                            <img src="https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png"
+                            className="rounded-circle shadow-1-strong" width="100" height="100" />
+                        </div>
+                        <p className="lead my-3">
+                            "Me encantan las hamburguesas de Guete"
+                        </p>
+                        <p className="font-italic font-weight-bold mb-4">Santino Montevidoni</p>
+                    </div>
+                    <div className="col-md-6 mb-0">
+                        <div className="d-flex justify-content-center mb-4">
+                            <img src="https://vivolabs.es/wp-content/uploads/2022/03/perfil-mujer-vivo.png"
+                            className="rounded-circle shadow-1-strong" width="100" height="100" />
+                        </div>
+                        <p className="lead my-3 text-muted">
+                            "Muy buena atención al cliente y siempre llega la comida rapido."
+                        </p>
+                        <p className="font-italic font-weight-bold mb-4">Agostina Ciruela</p>
+                    </div>
+                </div>
+            </div>
         </section>
+        
     )
     
 }
